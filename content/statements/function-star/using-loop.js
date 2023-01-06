@@ -18,12 +18,10 @@ const counterGenerator = counter();
 async function main() {
   log.start();
 
-  let loops = 5;
-  while (loops) {
-    console.log(`Loop #${5 - loops + 1}`);
-    console.log(counterGenerator.next());
-
-    loops -= 1;
+  let loop = 0;
+  for (const value of counterGenerator) {
+    console.log(`Loop #${(loop += 1)}`);
+    console.log(value);
     (await sleep())();
   }
 }
