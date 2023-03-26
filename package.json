@@ -1,0 +1,30 @@
+{
+  "name": "javascript-diaries",
+  "version": "1.0.0",
+  "description": "A place to keep notes as I learn JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenie7/javascript-diaries.git"
+  },
+  "keywords": ["learning"],
+  "author": "Jenie7",
+  "bugs": {
+    "url": "https://github.com/Jenie7/javascript-diaries/issues"
+  },
+  "homepage": "https://github.com/Jenie7/javascript-diaries#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-comment-length": "^0.8.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "fs-extra": "^10.1.0",
+    "https-proxy-agent": "^5.0.1",
+    "socks-proxy-agent": "^7.0.0"
+  }
+}
