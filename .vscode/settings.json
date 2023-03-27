@@ -21,8 +21,8 @@
     // "editorCursor.foreground": "#ff0000",
 
     // Keep
-    "editorGutter.foldingControlForeground": "#ff0000",
-    "list.focusHighlightForeground": "#ff0000",
+    // "editorGutter.foldingControlForeground": "#ff0000",
+    // "list.focusHighlightForeground": "#ff0000",
     "list.focusOutline": "#0D1117",
 
     "scrollbarSlider.activeBackground": "#0D1117",
