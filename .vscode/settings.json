@@ -6,19 +6,38 @@
   "explorer.decorations.colors": false,
   "editor.fontSize": 14,
 
+  "editor.tokenColorCustomizations": {
+    // "comments": "#C9D1D9",
+    // "comments": "#a3a7b0"
+    // "comments": "#bababa",
+    "comments": "#748aa0"
+  },
+
   "workbench.colorCustomizations": {
     // "list.inactiveSelectionBackground": "#ff0000",
-    // "sideBar.background": "#ff0000",
-    // "sideBar.background": "#ff0000",
-    // "panelSection.border": "#ff0000",
-    // "sideBar.background": "#ff0000",
-    // "sideBar.background": "#ff0000",
-    // "sideBar.background": "#ff0000",
-    // "sideBar.background": "#ff0000",
+    // "list.inactiveSelectionBackground": "#ff0000",
+    // "list.inactiveSelectionBackground": "#ff0000",
+    // "list.inactiveSelectionBackground": "#ff0000",
+    // "editorCursor.foreground": "#ff0000",
+
+    // Keep
+    "editorGutter.foldingControlForeground": "#ff0000",
+    "list.focusHighlightForeground": "#ff0000",
+    "list.focusOutline": "#0D1117",
+
+    "scrollbarSlider.activeBackground": "#0D1117",
+    "scrollbarSlider.background": "#0D1117",
+    "scrollbarSlider.hoverBackground": "#0D1117",
+
+    // "list.inactiveFocusOutline": "#ff0000",
+    "list.inactiveFocusBackground": "#ff0000",
+    "list.inactiveSelectionBackground": "#0D1117",
+    "list.hoverBackground": "#0D1117",
+    // "list.hoverForeground": "#0D1117",
+    "list.activeSelectionBackground": "#0D1117",
     "editorGroupHeader.tabsBorder": "#0D1117",
     "editorGroupHeader.tabsBackground": "#0D1117",
 
-    // Keep
     // "editorWidget.border": "#0D1117",
     // "editorWidget.background": "#ff0000",
     "editorOverviewRuler.background": "#0D1117",
@@ -29,7 +48,11 @@
     "panel.background": "#0D1117",
     "tab.inactiveBackground": "#0D1117",
     "tab.border": "#0D1117",
-    "tab.activeBorder": "#00b7ff",
+
+    "tab.activeBorder": "#00b7ff9b",
+    "list.inactiveSelectionForeground": "#00b7ff9b",
+    "list.activeSelectionForeground": "#00b7ff9b",
+
     "tab.activeBorderTop": "#0D1117",
     "editorGroupHeader.border": "#0D1117",
 
@@ -37,6 +60,7 @@
     "sideBarSectionHeader.border": "#0D1117",
     "sideBar.border": "#0D1117",
     "terminal.background": "#0D1117",
+
     "sideBar.background": "#0D1117",
     // "terminal.background": "#ff0000",
     // "editor.background": "#ff0000",
@@ -44,14 +68,22 @@
     // "sideBarSectionHeader.background": "#ff0000",
     // "sideBarSectionHeader.foreground": "#ff0000",
     "activityBar.border": "#0D1117",
-    "statusBar.border": "#0D1117"
+    "statusBar.border": "#0D1117",
+
+    "sideBarTitle.foreground": "#3e4c5a",
+    "sideBar.foreground": "#3e4c5a",
+    "sideBarSectionHeader.foreground": "#3e4c5a",
+    "activityBar.inactiveForeground": "#3e4c5a",
+    "activityBar.foreground": "#3e4c5a",
+    "statusBar.foreground": "#3e4c5a"
+
     // "statusBar.background": "#ff0000",
     // "scrollbarSlider.activeBackground": "#ff0000",
     // "scrollbarSlider.hoverBackground": "#ff0000",
     // "badge.background": "#ff0000"
   },
 
-  "where-am-i.color": "red",
+  // "where-am-i.color": "red",
 
   "files.exclude": {
     // ".gitignore": true,
