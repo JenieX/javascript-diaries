@@ -4,7 +4,7 @@
   "editor.lineHeight": 25,
   "editor.fontLigatures": false,
   "explorer.decorations.colors": false,
-  "editor.fontSize": 14,
+  // "editor.fontSize": 14,
 
   "editor.tokenColorCustomizations": {
     // "comments": "#C9D1D9",
